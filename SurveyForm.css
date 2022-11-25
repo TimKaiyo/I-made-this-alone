@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: rgb(0, 0, 0);
+    font-family: Tahoma;
+    font-size: 16px;
+    background-image: url(https://images.businessnewsdaily.com/app/uploads/2022/04/04074130/teamwork_g-stockstudio_getty.jpg);
+}
+
+h1,
+p:first-of-type {
+    margin: 1em auto;
+    text-align: left;
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: rgba(255, 255, 255, 50%);
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset:first-of-type {
+    padding-top: 2rem;
+}
+
+fieldset:last-of-type {
+    border-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 3em;
+    border-color: black;
+}
+
+input,
+textarea {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+textarea {
+    border-color: black;
+    min-height: 5em;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color: #1C9850;
+    background-color: #1C9850;
+    min-width: 250px;
+    color: white;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+input[type=radio] {
+    margin: -5px;
+    width: 4%;
+}
+
+.class-for-label {
+    margin-left: 25px;
+    margin-top: -25px;
+}
+
+input[type="checkbox"] {
+    margin: -5px;
+    width: 4%;
+}
